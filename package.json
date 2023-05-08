@@ -1,0 +1,29 @@
+{
+  "name": "flashlight-reactivity",
+  "version": "0.0.1",
+  "description": "Reactivity made simple",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JetStackSoftware/flashlight.git"
+  },
+  "keywords": [
+    "Reactivity",
+    "State management"
+  ],
+  "author": "JetStack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JetStackSoftware/flashlight/issues"
+  },
+  "homepage": "https://github.com/JetStackSoftware/flashlight#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  }
+}
